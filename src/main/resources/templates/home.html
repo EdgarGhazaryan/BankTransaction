@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        background-color: #989393;
+    }
+    a {
+        background-color: #000000;
+        color: white;
+        padding: 1em 1.5em;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    a:hover {
+        background-color: #0027e9;
+        cursor: pointer;
+    }
+    a:active {
+        color: #0027e9;
+        top: 5px;
+    }
+    h1 {
+        text-align: center;
+        color: #000000;
+        font-family: "Allerta Stencil", Sans-serif,serif;
+        font-size: 62px;
+        font-weight: 800;
+        line-height: 72px;
+        margin: 0 0 24px;
+        text-transform: uppercase;
+
+    }
+    #pos{
+        text-align: center;
+    }
+    </style>
+    <title>Bank</title>
+</head>
+<body>
+    <h1>Bank home page</h1><br><br>
+    <div id="pos">
+    <a href="/api/user/register" style="margin-left: 40px; font-weight:bold;font-size:25px">Log in</a>
+    <a href="/api/user/register" style="margin-left: 40px; font-weight:bold;font-size:25px">Register</a>
+</div>
+</body>
+</html>
